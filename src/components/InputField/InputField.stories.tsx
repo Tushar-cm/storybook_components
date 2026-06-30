@@ -35,10 +35,9 @@ type Story = StoryObj<typeof InputField>;
 export const Default: Story = {
   args: {
     label: 'Username',
-    placeholder: "e.g. tushar",
+    placeholder: 'e.g. tushar',
     helperText: 'Username must be unique.',
-    className: {},
-    type: "email"
+    type: 'text',
   },
 };
 
